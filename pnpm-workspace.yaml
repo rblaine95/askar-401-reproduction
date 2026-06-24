@@ -1,0 +1,5 @@
+allowBuilds:
+  "@openwallet-foundation/askar-nodejs": true
+  koffi: true
+  cbor-extract: true
+  es5-ext: true

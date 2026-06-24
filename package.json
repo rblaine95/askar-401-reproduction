@@ -1,0 +1,21 @@
+{
+  "name": "askar-401-repro",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Credo 0.7.0 repro for openwallet-foundation/askar#401 (arm64 Postgres TLS BadSignature)",
+  "scripts": {
+    "start": "node index.ts"
+  },
+  "dependencies": {
+    "@credo-ts/askar": "0.7.0",
+    "@credo-ts/core": "0.7.0",
+    "@credo-ts/node": "0.7.0",
+    "@openwallet-foundation/askar-nodejs": "0.6.0",
+    "@openwallet-foundation/askar-shared": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^6.0.0"
+  }
+}
